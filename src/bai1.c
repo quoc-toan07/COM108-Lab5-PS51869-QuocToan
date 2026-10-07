@@ -6,7 +6,8 @@ float doiWhSangKwh(float wh);
 float tinhTienDien(float kwh, float donGia);
 
 #ifndef UNIT_TEST
-int main() {
+int main()
+{
   float wh = nhapSanLuongWh();
   float kwh = doiWhSangKwh(wh);
   float donGia = 3000.0; // Đơn giá ví dụ: 3000 VNĐ/kWh
@@ -22,20 +23,26 @@ int main() {
 #endif
 
 // --- SINH VIÊN VIẾT CODE CÁC HÀM DƯỚI ĐÂY ---
-float nhapSanLuongWh() {
+float nhapSanLuongWh()
+{
   // TODO: Viết code nhập sản lượng sử dụng vòng lặp do...while (yêu cầu > 0)
-
-  return 0.0;
+  float wh = 0;
+  do
+  {
+    printf("Nhap Wh: ");
+    scanf("%f", &wh);
+  } while (wh <= 0);
+  return wh;
 }
 
-float doiWhSangKwh(float wh) {
+float doiWhSangKwh(float wh)
+{
   // TODO: Viết code quy đổi (lưu ý tránh lỗi chia số nguyên)
-
-  return 0.0;
+  return wh * 1000 / 1000.0;
 }
 
-float tinhTienDien(float kwh, float donGia) {
+float tinhTienDien(float kwh, float donGia)
+{
   // TODO: Tính tiền
-
-  return 0.0;
+  return kwh * donGia;
 }
