@@ -48,6 +48,7 @@ int thanhToanHoaDon(float *soDuVi, float tongTien, float tyLeHoan, float *tienHo
     {
         *soDuVi -= tongTien;
         *tienHoan = tongTien * tyLeHoan / 100.0;
+        *soDuVi += *tienHoan;
         return 1;
     }
 }

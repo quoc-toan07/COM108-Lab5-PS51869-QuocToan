@@ -24,7 +24,7 @@
 ### Lần 4: Bài 2
 
 - Trạng thái:
-- Lỗi/Cách sửa:
+- Lỗi/Cách sửa: Cộng tiền hoàn cho số dư ví.
 
 ### Lần 5: Bài 3
 
