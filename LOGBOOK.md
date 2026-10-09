@@ -14,7 +14,7 @@
 ### Lần 2: Bài 1
 
 - Trạng thái:
-- Lỗi/Cách sửa: Chia 1000 sửa thành chia cho 1000.0
+- Lỗi/Cách sửa: Chia 1000 sửa thành chia cho 1000.0f
 
 ### Lần 3: Bài 2
 
